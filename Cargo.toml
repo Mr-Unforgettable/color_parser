@@ -19,3 +19,4 @@ name = "color_parser_cli"
 path = "src/main.rs"
 
 [dependencies]
+owo-colors = "4.2.0"
