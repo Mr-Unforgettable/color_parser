@@ -18,6 +18,6 @@ println!("{:?}", color); // Rgba { red: 255, green: 170, blue: 187, alpha: 255 }
 ```
 
 ## Features
-[x] Support for RGBA values
-[x] Support for shorthand syntax
-[ ] Support for HSV and HSL value parsing (In Development)
+- [x] Support for RGBA values
+- [x] Support for shorthand syntax
+- [ ] Support for HSV and HSL value parsing (In Development)
