@@ -1,0 +1,21 @@
+[package]
+name = "color_parser"
+version = "0.1.0"
+edition = "2024"
+description = "A simple hex color parser that supports shorthand and alpha channels"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Mr-Unforgettable/color_parser"
+keywords = ["color", "hex", "rgb", "rgba", "parser", "hsv", "hsl"]
+categories = ["parsing", "graphics"]
+authors = ["abhinavpsingh2024@protonmail.com"]
+
+[lib]
+name = "color_parser"
+path = "src/lib.rs"
+
+[[bin]]
+name = "color_parser_cli"
+path = "src/main.rs"
+
+[dependencies]
