@@ -15,6 +15,7 @@ use color_parser::parse_hex_color;
 
 let color = parse_hex_color("#FFAABB").unwrap();
 println!("{:?}", color); // Rgba { red: 255, green: 170, blue: 187, alpha: 255 }
+```
 
 ## Features
 [x] Support for RGBA values
