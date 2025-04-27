@@ -56,16 +56,15 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("\n Hex Input: #{color}\n", color = color_hex.to_uppercase());
     println!("🎨  Color: {}", color_preview);
-    println!("");
     println!(
-        "🧪  RGBA: rgba({}, {}, {})",
+        "\n🌈  RGBA: rgba({}, {}, {})",
         rgba_color.red, rgba_color.green, rgba_color.blue
     );
     println!("    → Red:   {}", rgba_color.red);
     println!("    → Green: {}", rgba_color.green);
     println!("    → Blue:  {}", rgba_color.blue);
     println!("    → Alpha: {}", rgba_color.alpha);
-    println!("");
+
     println!(
         "\n🌈  HSL: hsl({}°, {}%, {}%)",
         hsl_color.hue.round(),
@@ -75,7 +74,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
     println!("    → Hue:        {}°", hsl_color.hue.round());
     println!("    → Saturation: {}%", hsl_color.saturation.round());
     println!("    → Lightness:  {}%", hsl_color.lightness.round());
-    println!("");
+
     println!(
         "\n🌈  HSV: hsv({}°, {}%, {}%)",
         hsv_color.hue.round(),
@@ -85,7 +84,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
     println!("    → Hue:        {}°", hsv_color.hue.round());
     println!("    → Saturation: {}%", hsv_color.saturation.round());
     println!("    → value:      {}%", hsv_color.value.round());
-    println!("");
+
     println!(
         "\n🌈  CMYK: CMYK({}%, {}%, {}%, {}%)",
         cmyk_color.cyan.round(),
@@ -97,7 +96,7 @@ fn run() -> Result<(), Box<dyn std::error::Error>> {
     println!("    → Magenta: {}%", cmyk_color.magenta.round());
     println!("    → Yellow:  {}%", cmyk_color.yellow.round());
     println!("    → Black:   {}%", cmyk_color.black.round());
-    println!("");
+    println!();
     Ok(())
 }
 
