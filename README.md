@@ -1,4 +1,4 @@
-# color_parser
+# Color Parser
 
 A simple and lightweight Rust library to parse hex color codes.
 
@@ -15,3 +15,8 @@ use color_parser::parse_hex_color;
 
 let color = parse_hex_color("#FFAABB").unwrap();
 println!("{:?}", color); // Rgba { red: 255, green: 170, blue: 187, alpha: 255 }
+
+## Features
+[x] Support for RGBA values
+[x] Support for shorthand syntax
+[ ] Support for HSV and HSL value parsing (In Development)
