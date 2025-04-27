@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "color_parser"
+name = "color_parser_lib"
 version = "0.1.0"
