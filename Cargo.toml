@@ -6,7 +6,7 @@ description = "A simple hex color parser that supports shorthand and alpha chann
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Mr-Unforgettable/color_parser"
-keywords = ["color", "hex", "rgb", "rgba", "parser", "hsv", "hsl"]
+keywords = ["color", "hex", "parser"]
 categories = ["parsing", "graphics"]
 authors = ["abhinavpsingh2024@protonmail.com"]
 
